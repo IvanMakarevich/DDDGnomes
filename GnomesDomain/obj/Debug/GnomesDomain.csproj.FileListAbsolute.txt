@@ -1,0 +1,7 @@
+D:\work\UsefullTools4\FightClub\src\FightClub\GnomesDomain\bin\Debug\GnomesDomain.dll
+D:\work\UsefullTools4\FightClub\src\FightClub\GnomesDomain\bin\Debug\GnomesDomain.pdb
+D:\work\UsefullTools4\FightClub\src\FightClub\GnomesDomain\bin\Debug\EntityFramework.dll
+D:\work\UsefullTools4\FightClub\src\FightClub\GnomesDomain\bin\Debug\EntityFramework.xml
+D:\work\UsefullTools4\FightClub\src\FightClub\GnomesDomain\obj\Debug\ResolveAssemblyReference.cache
+D:\work\UsefullTools4\FightClub\src\FightClub\GnomesDomain\obj\Debug\GnomesDomain.dll
+D:\work\UsefullTools4\FightClub\src\FightClub\GnomesDomain\obj\Debug\GnomesDomain.pdb
