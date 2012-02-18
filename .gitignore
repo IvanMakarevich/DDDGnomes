@@ -1,0 +1,4 @@
+# git ignore file
+GnomesDomain/obj/*
+GnomesDomain/bin/*
+GnomesDomain/_Resharper*

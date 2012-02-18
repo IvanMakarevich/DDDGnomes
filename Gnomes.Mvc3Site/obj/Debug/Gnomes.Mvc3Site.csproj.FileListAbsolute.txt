@@ -1,0 +1,9 @@
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Gnomes.Mvc3Site.dll
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Gnomes.Mvc3Site.pdb
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\EntityFramework.dll
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Gnomes.Domain.dll
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Gnomes.Domain.pdb
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\EntityFramework.xml
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\obj\Debug\ResolveAssemblyReference.cache
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\obj\Debug\Gnomes.Mvc3Site.dll
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\obj\Debug\Gnomes.Mvc3Site.pdb
