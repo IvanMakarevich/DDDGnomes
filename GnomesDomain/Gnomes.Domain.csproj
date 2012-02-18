@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DomainServices\GnomeActionService.cs" />
     <Compile Include="Entities\Cell.cs" />
     <Compile Include="Entities\ActionPattern.cs" />
     <Compile Include="Entities\Gnome.cs" />
@@ -49,13 +50,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ICellRepository.cs" />
     <Compile Include="IUnitOfWork.cs" />
+    <Compile Include="Repositories\IGnomeActionRepository.cs" />
+    <Compile Include="Repositories\IGnomeRepository.cs" />
+    <Compile Include="Repositories\IRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DomainServices\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -72,10 +72,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="GnomesRecreateAndSeed.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -161,6 +163,10 @@
       <Project>{34D2C802-0E9A-4201-8F1C-6D9FC1EC354D}</Project>
       <Name>Gnomes.Infrastructure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GnomesDomain\Gnomes.Application\Gnomes.Application.csproj">
+      <Project>{0FB07ED7-6FE1-4C94-AB95-2B565CD8E61A}</Project>
+      <Name>Gnomes.Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GnomesDomain\Gnomes.Domain.csproj">
       <Project>{198F68B6-C6E0-4895-B75C-11DEC51F5268}</Project>
       <Name>Gnomes.Domain</Name>
@@ -168,6 +174,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Unity.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\About2.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

@@ -3,3 +3,11 @@ GnomesDomain/obj/*
 GnomesDomain/bin/*
 GnomesDomain/_Resharper*
 Gnomes.Infrastructure/bin/*
+Gnomes.Infrastructure/obj/*
+GnomesDomain/Tests.Unit.Domain/bin/*
+GnomesDomain/Tests.Unit.Domain/obj/*
+Gnomes.Mvc3Site/bin/*
+Gnomes.Mvc3Site/obj/*
+GnomesDomain/Gnomes.Application/bin/*
+obj/
+bin/

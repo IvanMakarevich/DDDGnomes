@@ -9,7 +9,6 @@ namespace Gnomes.Domain.Entities
         public ActionPattern ActionPattern { get; set; }
         public Cell TargetCell { get; set; }
         public DateTime? StartDateTime { get; set; }
-        public int Position { get; set; }
 
         public virtual GnomeAction PreviousAction { get; set; }
         public virtual GnomeAction NextAction { get; set; }

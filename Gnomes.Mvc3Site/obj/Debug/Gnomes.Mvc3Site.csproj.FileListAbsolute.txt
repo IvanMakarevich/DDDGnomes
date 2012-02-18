@@ -7,3 +7,14 @@ D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\EntityFramework.xml
 D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\obj\Debug\ResolveAssemblyReference.cache
 D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\obj\Debug\Gnomes.Mvc3Site.dll
 D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\obj\Debug\Gnomes.Mvc3Site.pdb
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Gnomes.Application.dll
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Gnomes.Infrastructure.dll
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Microsoft.Practices.ServiceLocation.dll
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Microsoft.Practices.Unity.dll
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Gnomes.Infrastructure.pdb
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Gnomes.Application.pdb
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Microsoft.Practices.ServiceLocation.xml
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Microsoft.Practices.Unity.xml
+D:\New folder (2)\DDDGnomes\Gnomes.Mvc3Site\bin\Microsoft.Practices.Unity.Configuration.xml

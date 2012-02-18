@@ -9,7 +9,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gnomes.Infrastructure", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gnomes.Application", "Gnomes.Application\Gnomes.Application.csproj", "{0FB07ED7-6FE1-4C94-AB95-2B565CD8E61A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Unit.Domain", "Tests.Unit.Domain\Tests.Unit.Domain.csproj", "{4356C859-957A-4006-BC1E-81C46A0E244F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3F7A954-1204-4999-B447-566309C3BE3E}"
+	ProjectSection(SolutionItems) = preProject
+		GnomesDomain.vsmdi = GnomesDomain.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = GnomesDomain.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -31,6 +43,10 @@ Global
 		{0FB07ED7-6FE1-4C94-AB95-2B565CD8E61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FB07ED7-6FE1-4C94-AB95-2B565CD8E61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FB07ED7-6FE1-4C94-AB95-2B565CD8E61A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4356C859-957A-4006-BC1E-81C46A0E244F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4356C859-957A-4006-BC1E-81C46A0E244F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4356C859-957A-4006-BC1E-81C46A0E244F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4356C859-957A-4006-BC1E-81C46A0E244F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

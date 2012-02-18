@@ -7,7 +7,6 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using Gnomes.Application;
 using Gnomes.Infrastructure;
-using Gnomes.Infrastructure.Seed;
 using Microsoft.Practices.ServiceLocation;
 using Microsoft.Practices.Unity;
 

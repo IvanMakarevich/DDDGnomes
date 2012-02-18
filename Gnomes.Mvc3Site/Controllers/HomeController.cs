@@ -4,10 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Gnomes.Domain;
+using Gnomes.Domain.Entities;
 
 namespace Gnomes.Mvc3Site.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         public ActionResult Index()
         {
@@ -18,11 +19,20 @@ namespace Gnomes.Mvc3Site.Controllers
 
         public ActionResult About()
         {
-            using (GnomesContext context = new GnomesContext())
-            {
-                var t = context.Gnomes.ToList();
-            }
-            return View();
+            Gnome gnome = GnomeService.LoadGnomeById(1);
+            GnomeAction firstAction = gnome.GnomeActions.FirstOrDefault(a => a.PreviousAction == null);
+            ViewBag.FirstAction = firstAction;
+
+            return View(gnome);
+        }
+
+        public ActionResult About2()
+        {
+            Gnome gnome = GnomeService.LoadGnomeById(1);
+            GnomeAction firstAction = gnome.GnomeActions.FirstOrDefault(a => a.PreviousAction == null);
+            ViewBag.FirstAction = firstAction;
+
+            return View(gnome);
         }
     }
 }

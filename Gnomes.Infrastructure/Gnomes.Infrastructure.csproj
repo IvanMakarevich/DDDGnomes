@@ -48,8 +48,9 @@
     <Compile Include="GnomesContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\CellRepository.cs" />
+    <Compile Include="Repositories\GnomeActionRepository.cs" />
+    <Compile Include="Repositories\GnomeRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
-    <Compile Include="Seed\GnomesRecreateAndSeed.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GnomesDomain\Gnomes.Domain.csproj">

@@ -49,8 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppServices\GnomeService.cs" />
+    <Compile Include="Contracts\IGnomeService.cs" />
+    <Compile Include="Contracts\ISeedService.cs" />
+    <Compile Include="AppServices\InstallServices\SeedService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegisterUnity.cs" />
+    <Compile Include="ApplicationUnityRegistrator.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Gnomes.Infrastructure\Gnomes.Infrastructure.csproj">
