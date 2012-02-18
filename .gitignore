@@ -2,3 +2,4 @@
 GnomesDomain/obj/*
 GnomesDomain/bin/*
 GnomesDomain/_Resharper*
+Gnomes.Infrastructure/bin/*
