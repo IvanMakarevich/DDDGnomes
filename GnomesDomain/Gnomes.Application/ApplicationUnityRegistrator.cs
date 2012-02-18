@@ -6,24 +6,29 @@ using Gnomes.Domain.Repositories;
 using Gnomes.Infrastructure;
 using Gnomes.Infrastructure.Repositories;
 using Gnomes.Infrastructure.Seed;
+using Microsoft.Practices.ServiceLocation;
 using Microsoft.Practices.Unity;
 
 namespace Gnomes.Application
 {
-    class RegisterUnity
+    public class ApplicationUnityRegistrator
     {
-        public void InitializeUnity()
+        public void Register(UnityContainer container)
         {
-            var container = Register();
-            // TODO store container in static field.
+            RegisterInfrastructure(container);
+            RegisterAppServices(container);
         }
 
-        public UnityContainer Register()
+        private void RegisterInfrastructure(UnityContainer container)
         {
-            UnityContainer container = new UnityContainer();
-            
             container.RegisterType<ICellRepository, CellRepository>();
-            return container;
         }
+
+        private void RegisterAppServices(UnityContainer container)
+        {
+
+        }
+
+
     }
 }

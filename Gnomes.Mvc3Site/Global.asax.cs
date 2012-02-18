@@ -5,7 +5,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Gnomes.Application;
+using Gnomes.Infrastructure;
 using Gnomes.Infrastructure.Seed;
+using Microsoft.Practices.ServiceLocation;
+using Microsoft.Practices.Unity;
 
 namespace Gnomes.Mvc3Site
 {
@@ -38,7 +42,19 @@ namespace Gnomes.Mvc3Site
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
 
+            RegisterIoc();
             Database.SetInitializer(new GnomesRecreateAndSeed());
+        }
+
+        private void RegisterIoc()
+        {
+            UnityContainer container = new UnityContainer();
+            container.RegisterType<GnomesContext, GnomesContext>();
+
+            ApplicationUnityRegistrator registrator = new ApplicationUnityRegistrator();
+            registrator.Register(container);
+            UnityServiceLocator locator = new UnityServiceLocator(container);
+            ServiceLocator.SetLocatorProvider(() => locator);
         }
     }
 }
